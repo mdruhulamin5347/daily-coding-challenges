@@ -14,8 +14,7 @@ int main(){
         else{
             int ans = ((days - 2) / 7) + 1;
             cout << ans << endl;
-        }       
-
+        }      
     }
     return 0;
 }
