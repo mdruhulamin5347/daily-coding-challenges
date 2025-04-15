@@ -15,8 +15,7 @@ int main(){
         if(ass_com_min <= day_to_min)
             cout << "YES" << endl;
         else 
-            cout << "NO" << endl;
-        
+            cout << "NO" << endl;        
     }
     return 0;
 }
