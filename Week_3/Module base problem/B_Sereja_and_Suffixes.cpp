@@ -7,7 +7,7 @@ int main(){
     cin >> n >> m;
     vector<int>v(n+1);
     for(int i=1; i<=n; i++){
-        cin >> v[i] ;
+        cin >> v[i];
     }
     set<int>s;
     vector<int>ans;
