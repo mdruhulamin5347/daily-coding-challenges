@@ -28,4 +28,3 @@ int main(){
         cout << share << endl;
     }
     return 0;
-}
