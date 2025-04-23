@@ -7,8 +7,7 @@ int main(){
     cin >> t;
     while(t--){
         int x,y;
-        cin >> x >> y;
-       
+        cin >> x >> y;       
         cout << x % 3 << endl;
     }
     return 0;
