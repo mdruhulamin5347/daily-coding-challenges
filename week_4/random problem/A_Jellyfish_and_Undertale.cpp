@@ -13,18 +13,26 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> v[i];
         }
-
-        int c = b; 
+        sort(v.begin(),v.end());
+        int c = b;  
         int cnt = 0;
-
-        int i=n - 1;
-        while (i>=0) {
-            if (c == 1) {
-                c = min(c + v[i], a);
-                i--;
+        int i=0;
+        while (n > i) {
+            int mn = min(v[i],v[i+1]);
+            int mx = max(v[i],v[i+1]);            
+            if(mx == mn){   
+                c = min(c + mx + mn, a);   
+                cnt += c - 1;
+                c=1;
+                i++;
+                i++;
             }
-            cnt += c - 1;
-            c=1;            
+            else{       
+                c = min(c + v[i], a);
+                i++;  
+                cnt += c - 1;
+                c=1;
+            }
         }
         cout << cnt + 1 << endl;
     }
