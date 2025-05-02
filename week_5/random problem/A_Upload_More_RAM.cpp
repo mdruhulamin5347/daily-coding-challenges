@@ -6,6 +6,7 @@ using namespace std;
 int main(){
     int t;
     cin >> t;
+
     while(t--){
         int n,k;
         cin >> n >> k;
@@ -16,5 +17,6 @@ int main(){
         }
         cout << min_second << endl;
     }
+    
     return 0;
 }
