@@ -26,6 +26,7 @@ int main(){
             }
             // cout << y / (x + 1) << " ";
         }
+        
         cout << cnt << endl;
     }
     return 0;
