@@ -7,6 +7,9 @@ int main(){
     cin >> t;
     
     while(t--){
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+        
         int n,m;
         cin >> n >> m;
         vector<int> a(n);
