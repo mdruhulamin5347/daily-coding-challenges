@@ -26,12 +26,10 @@ int main(){
                 flag_1 = true;
             }            
         }
-        if(s[n-1] == '0'){
+        if(s[n-1] == '0')
             cout << group_cnt_1 << endl;
-        }
-        else{
+        else
             cout << group_cnt_0 << endl;
-        }
     }
     return 0;
 }
