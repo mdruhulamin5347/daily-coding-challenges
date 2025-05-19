@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+
     int t;
     cin >> t;
     while(t--){
@@ -20,16 +21,19 @@ int main(){
                 flag_0 = true;
                 flag_1 = false;
             }
+
             else if(s[i] == '1' && flag_1 == false){
                 group_cnt_1++;
                 flag_0 = false;
                 flag_1 = true;
             }            
         }
+        
         if(s[n-1] == '0')
             cout << group_cnt_1 << endl;
         else
             cout << group_cnt_0 << endl;
     }
+
     return 0;
 }
