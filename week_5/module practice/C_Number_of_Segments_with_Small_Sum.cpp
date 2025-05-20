@@ -1,4 +1,4 @@
-
+// https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/submission/320557113
 
 
 #include <bits/stdc++.h>
