@@ -20,12 +20,10 @@ int main()
         sort(a.begin(),a.end(),greater<int>());
         int ans = 0;
         for(int i = 1;i<k;i++){
-            if(a[i] > 1){
-                ans += (a[i] -1) + a[i];
-            }
-            else{
-                ans++;
-            }
+            if(a[i] > 1)
+                ans += (a[i] -1) + a[i];  
+            else
+                ans++;            
         }
         cout << ans <<endl;
     }
