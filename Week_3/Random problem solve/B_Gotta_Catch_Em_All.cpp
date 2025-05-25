@@ -19,10 +19,8 @@ int main(){
         for(int i=0; i<n; i++){
             if((v[i] * x) > y){
                 v2[i] = y;
-            }
-            else{
+            else
                 v2[i] = v[i] * x; 
-            }
         }
         long long sum = 0;
         for(int i=0; i<n; i++){
