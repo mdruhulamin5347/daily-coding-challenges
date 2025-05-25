@@ -17,7 +17,7 @@ int main(){
         }
         vector<long long> v2(n);
         for(int i=0; i<n; i++){
-            if((v[i] * x) > y){
+            if((v[i] * x) > y)
                 v2[i] = y;
             else
                 v2[i] = v[i] * x; 
