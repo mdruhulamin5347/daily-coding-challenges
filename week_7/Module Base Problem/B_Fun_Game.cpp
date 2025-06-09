@@ -8,6 +8,7 @@ int main(){
     cin.tie(NULL);
     
     int t;
+    cin >> t;
     
     return 0;
 }
