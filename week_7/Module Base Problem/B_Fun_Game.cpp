@@ -8,7 +8,10 @@ int main(){
     cin.tie(NULL);
     
     int t;
-    cin >> t;
-    
+    cin << t;
+    while(t--){
+        int n;
+        cin << n;
+    }
     return 0;
 }
