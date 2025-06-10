@@ -8,6 +8,12 @@ int main(){
     cin.tie(NULL);
     
     int t;
+    cin >> t;
+    while(t--){
+        int n;
+        cin >> n;
+        cout << n << endl;
+    }
     
     return 0;
 }
