@@ -12,7 +12,13 @@ int main(){
     while(t--){
         int n;
         cin >> n;
-        cout << n << endl;
+        vector<int>v(n);
+        for(int i=0; i<n; i++){
+            cin >> v[i];
+        }
+        for(int val : v){
+            cout << val << " ";
+        }
     }
     
     return 0;
