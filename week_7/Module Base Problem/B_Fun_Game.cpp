@@ -19,6 +19,7 @@ int main(){
         for(int val : v){
             cout << val << " ";
         }
+        cout << endl;
     }
     
     return 0;
