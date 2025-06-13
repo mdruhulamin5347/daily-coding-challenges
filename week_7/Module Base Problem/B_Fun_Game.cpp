@@ -19,7 +19,7 @@ int main(){
         for(int val : v){
             cout << val << " ";
         }
-        cout << endl;
+        cout << "\n";
     }
     
     return 0;
