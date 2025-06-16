@@ -18,12 +18,18 @@ int main(){
 
     int l=0,r=0;
     int sum = 0;
+    int count = 0;
     while(l<n){
         sum += v[r];
-        if(sum >= s){
-            
+        while(sum >= s){
+            count+= (n-r);
+            sum -= v[l];
+            l++;
         }
+        r++;
     }
+
+    cout << count;
     
     return 0;
 }
