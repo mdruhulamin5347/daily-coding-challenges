@@ -28,7 +28,7 @@ int main(){
             sum -= v[l];
             l++;
         }
-        r++;      
+        r++;
     }
     cout << ans;
     return 0;
